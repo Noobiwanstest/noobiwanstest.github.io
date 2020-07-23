@@ -7,10 +7,6 @@
         margin-top: -285px;*/
 }
 
-.xbox.disconnected {
-    background: url(disconnectedmod.png);
-}
-
 .xbox .trigger {
     width: 88px;
     height: 121px;
