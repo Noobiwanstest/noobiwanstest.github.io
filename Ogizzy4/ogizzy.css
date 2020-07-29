@@ -1,0 +1,29 @@
+/*BEGIN Xbox One Controller Styling*/
+.controller.xbox {
+    background: url(basemod.png);
+    height: 630px;
+    width: 750px;
+    /*    margin-left: -375px;
+        margin-top: -285px;*/
+}
+
+.xbox .trigger {
+    width: 88px;
+    height: 121px;
+    background: url(triggermod.png);
+    opacity: 0;
+}
+
+.xbox .stick {
+    position: absolute;
+    background: url(stickmod.png);
+    background-position: -85px 0;
+    height: 83px;
+    width: 83px;
+}
+
+.xbox .face {
+    background: url(dpad.png);
+    position: absolute;
+    opacity: 0;
+}
