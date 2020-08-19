@@ -1,0 +1,30 @@
+/*BEGIN Xbox One Controller Styling*/
+.controller.xbox {
+    background: url(basemod.png);
+    height: 630px;
+    width: 750px;
+    /*    margin-left: -375px;
+        margin-top: -285px;*/
+}
+
+.xbox .stick {
+    position: absolute;
+    background: url(stickmod.png);
+    background-position: -85px 0;
+    height: 83px;
+    width: 83px;
+}
+
+.xbox .stick.pressed {
+    background-position: 0 0;
+}
+
+.xbox .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.xbox .stick.right {
+    top: 113px;
+    left: 288px;
+}
