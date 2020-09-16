@@ -1,0 +1,49 @@
+/*BEGIN PS4 Controller Styling*/
+.controller.ds4 {
+    background: url(basemod.png);
+    height: 598px;
+    width: 806px;
+    /*    margin-left: -403px;
+        margin-top: -280px;*/
+}
+
+.ds4 .trigger {
+    width: 99px;
+    height: 100%;
+    background: url(triggermod.png);
+    opacity: 0;
+}
+
+.ds4 .bumper {
+    width: 99px;
+    height: 23px;
+    background: url(bumpermod.png) no-repeat;
+    opacity: 0;
+}
+
+.ds4 .button {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: url(facemod.png);
+}
+
+.ds4 .sticks {
+    position: absolute;
+    width: 361px;
+    height: 105px;
+    top: 308px;
+    left: 228px;
+}
+
+.ds4 .stick {
+    position: absolute;
+    background: url(stickmod.png);
+    height: 94px;
+    width: 94px;
+}
+
+.ds4 .face {
+    background: url(dpadmod.png);
+    position: absolute;
+}
