@@ -1,0 +1,83 @@
+/*BEGIN PS4 Controller Styling*/
+.controller.ds4 {
+    background: url(basemod.png);
+    height: 598px;
+    width: 806px;
+    /*    margin-left: -403px;
+        margin-top: -280px;*/
+}
+
+.ds4 .trigger {
+    width: 99px;
+    height: 100%;
+    background: url(triggermod.png);
+    opacity: 0;
+}
+
+.ds4 .bumper {
+    width: 99px;
+    height: 23px;
+    background: url(bumpermod.png) no-repeat;
+    opacity: 0;
+}
+
+.ds4 .abxy {
+    position: absolute;
+    width: 170px;
+    height: 171px;
+    top: 159px;
+    left: 567px;
+}
+
+.ds4 .button {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: url(facemod.png);
+}
+
+.ds4 .button.pressed {
+    background-position-y: 55px;
+    /* margin-top: 5px; */
+}
+
+.ds4 .a {
+    background-position: 0 0;
+    bottom: 0;
+    left: 58px;
+}
+
+.ds4 .b {
+    background-position: -57px 0;
+    top: 58px;
+    right: 0px;
+}
+
+.ds4 .x {
+    background-position: -113px 0;
+    top: 58px;
+}
+
+.ds4 .y {
+    background-position: 55px 0;
+    left: 58px;
+}
+.ds4 .sticks {
+    position: absolute;
+    width: 361px;
+    height: 105px;
+    top: 308px;
+    left: 228px;
+}
+
+.ds4 .stick {
+    position: absolute;
+    background: url(stickmod.png);
+    height: 94px;
+    width: 94px;
+}
+
+.ds4 .face {
+    background: url(dpadmod.png);
+    position: absolute;
+}
